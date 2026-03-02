@@ -28,9 +28,9 @@ const noHaceNada = (
   numero: number,
   texto: string,
   booleano: boolean,
-  arreglo: any[],
+  arreglo: string[],
 ) => {};
 
 // Crear el tipo de funcion que acepte la funcion "noHaceNada"
-let noHaceNadaTampoco: (a: number, b: string, c: boolean, d: any[]) => void;
+let noHaceNadaTampoco: (a: number, b: string, c: boolean, d: string[]) => void;
 noHaceNadaTampoco = noHaceNada;
