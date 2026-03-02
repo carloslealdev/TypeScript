@@ -1,0 +1,11 @@
+(() => {
+  // TRES MANERAS DE ESCRIBIR STRINGS
+
+  const batman: string = 'Batman';
+  const linternaVerde: string = "Linterna's Verde";
+  const volcanNegro: string = `Heroe: Volcan Negro`;
+
+  console.log(`I'm ${batman}`);
+
+  console.log(batman.toUpperCase());
+})();
