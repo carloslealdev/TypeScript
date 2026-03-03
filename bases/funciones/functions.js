@@ -9,5 +9,5 @@ Object.defineProperty(exports, "__esModule", { value: true });
         return 'Batiseñal activada';
     };
     console.log(typeof activateBatisignal);
-    const heroName = returnName(); //La inferencia de TS arroja que heroName es un string
+    const heroName = returnName();
 })();

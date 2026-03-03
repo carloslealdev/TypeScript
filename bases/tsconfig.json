@@ -19,6 +19,8 @@
     "sourceMap": false,
     "declaration": false,
     "declarationMap": false,
+    "removeComments": true,
+    // "outFile": "./main.js",
 
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,

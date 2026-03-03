@@ -71,6 +71,8 @@ const apocalipsis = {
   miembros: ['Magneto', 'Tormenta', 'Psylocke', 'Angel'],
 };
 
+console.log('Debug en TS');
+
 // Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
 let mystique: Charles | Apocalipsis;
 

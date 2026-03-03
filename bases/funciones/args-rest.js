@@ -1,10 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 (() => {
-    //Los argumentos rest son ideales cuando quiero que el primer argumento
-    //sea obligatorio pero también quiero poder tomar todo el resto de argumentos que mande
-    //el usuario
-    //El parámetro rest siempre va a ser un array, pero debo especificar el tipo
     const fullName = (firsName, ...restArgs) => {
         return `${firsName} ${restArgs.join(' ')}`;
     };

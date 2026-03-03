@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-// Objetos
 const batimovil = {
     carroceria: 'Negra',
     modelo: '6x6',
@@ -13,7 +12,6 @@ const bumblebee = {
     antibalas: true,
     pasajeros: 4,
     disparar() {
-        // El metodo disparar es opcional
         console.log('Disparando');
     },
 };
@@ -42,7 +40,7 @@ const apocalipsis = {
     lider: true,
     miembros: ['Magneto', 'Tormenta', 'Psylocke', 'Angel'],
 };
-// Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
+console.log('Debug en TS');
 let mystique;
 mystique = charles;
 mystique = apocalipsis;

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 (() => {
-    let nada = undefined;
-    console.log(nada);
+    let a;
+    const b = 10;
 })();

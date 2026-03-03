@@ -10,6 +10,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
     else {
         console.log('Nos salvamos');
     }
-    avengers = Number('200a'); //Esto devuelve NaN el cual es considerado un valor numerico
+    avengers = Number('200a');
     console.log(avengers);
 })();

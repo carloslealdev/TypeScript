@@ -1,8 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 (() => {
-    //DEFINICION DE ENUMS
-    //Palabra reservada enum y UpperCammelCase
     let AudioLevel;
     (function (AudioLevel) {
         AudioLevel[AudioLevel["min"] = 0] = "min";
